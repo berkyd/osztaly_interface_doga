@@ -5,6 +5,8 @@ interface ArtWork{
     year:Date;
     price:number;
     height:number;
+    kiir() : void;
+    toString() : string;
 }
 let ArtWork:ArtWork[]=[
     

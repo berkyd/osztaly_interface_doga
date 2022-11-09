@@ -9,4 +9,10 @@ class Statue implements ArtWork{
         this.price=price;
         this.height=height;
 }
+    kiir(): void {
+    console.log(this.toString());
+  }
+    toString(): string {
+    return this.title + " " + this.year + " " + this.price + " Ft";
+  }
 }
